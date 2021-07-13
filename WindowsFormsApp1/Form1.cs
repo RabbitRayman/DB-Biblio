@@ -30,7 +30,7 @@ namespace WindowsFormsApp1
             }
             else
             {
-                string connectString =string.Format(@"Data Source=DESKTOP-L4MBF8G\SQLEXPRESS;database=kurs1; User ID={0};Password={1}", textBox1.Text,textBox2.Text);
+                string connectString =string.Format(@"Data Source=0;database=kurs1; User ID={0};Password={1}", textBox1.Text,textBox2.Text);
                 Conn.connect = connectString;
                 try
                 {
